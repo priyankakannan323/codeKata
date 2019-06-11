@@ -15,9 +15,14 @@ int main(){
             max=a[i];
         }
     }
+    int c=0;
     for(i=0;i<=max;i++){
         if(b[i]>1){
             printf("%d ",i);
+            c++;
         }
+    }
+    if(c==0){
+        printf("unique");
     }
 }
