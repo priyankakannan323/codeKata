@@ -12,7 +12,7 @@ int main(){
         else{
             prev=cur;
         }
-        printf("%d-%d-(%d)\n",cur,prev,n);
+        //printf("%d-%d-(%d)\n",cur,prev,n);
         n/=10;
     }
     printf("%d",cur);
