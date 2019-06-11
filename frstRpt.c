@@ -14,7 +14,7 @@ int main(){
         }
         }
     }
-    if(i==j){
+    if(i==j)
         printf("unique");
     }
 }
